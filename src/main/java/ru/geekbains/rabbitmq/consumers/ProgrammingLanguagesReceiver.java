@@ -3,13 +3,11 @@ package ru.geekbains.rabbitmq.consumers;
 import com.rabbitmq.client.*;
 
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import java.util.concurrent.TimeoutException;
 
-public class ProgrammingLanguagesConsumer {
+public class ProgrammingLanguagesReceiver {
 
     public static void main(String[] args) throws Exception {
         Scanner in = new Scanner(System.in);
